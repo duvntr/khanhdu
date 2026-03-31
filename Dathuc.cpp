@@ -20,7 +20,7 @@ public:
         return is; 
     }
     
-    friend ostream& operator<<(ostream& os,DaThuc & dt){
+    friend ostream& operator<<(ostream& os,DaThuc dt){
         bool first = true;
         for(int i=0;i<=dt.n;i++){
             if(dt.a[i] != 0){
